@@ -36,6 +36,15 @@ yum install libffi-devel
 
 # sqlite安装
 yum install sqlite-devel
+
+# readline安装
+yum install readline-devel
+
+# openssl安装
+yum install openssl-devel
+
+# tk安装
+yum install tk-devel
 ```
 
 `编译安装`
@@ -48,5 +57,5 @@ yum install sqlite-devel
 
 ./configure --without-PACKAGE
 
-make && make install
+make install
 ```
